@@ -8,7 +8,6 @@ Check the theme in action [Demo](https://artemsheludko.github.io/flexible-jekyll
 
 - [Google Fonts](https://fonts.google.com/)
 - [Font Awesome](http://fontawesome.io/)
-- [Disqus](https://disqus.com/)
 - [Analytics](https://analytics.google.com/analytics/web/)
 - Support Emoji
 

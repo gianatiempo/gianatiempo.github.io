@@ -14,18 +14,13 @@ layout: default
       </div>
       <div class="author-name">{{site.author}}</div>
       <p>{{site.about-author}}</p>
-      <p>{{site.description}}</p>
-
-      <section class="contact">
-        <h3 class="contact-title">
-          <a href="{{site.baseurl}}/tags">Tags</a>
-        </h3>
-      </section>
     </div>
   </header>
-  <!-- End Header -->
   <footer>
     <section class="contact">
+      <h3 class="contact-title">
+        <a href="{{site.baseurl}}/tags">Tags</a>
+      </h3>
       <h3 class="contact-title">Contact me</h3>
       <ul>
         {% if site.social-github %}
@@ -45,12 +40,9 @@ layout: default
         {% endif %}
       </ul>
     </section>
-    <!-- End Section Contact -->
     <div class="copyright">
       <p>{{site.time | date: '%Y'}} &copy; {{site.author}}</p>
     </div>
   </footer>
-  <!-- End Footer -->
 </aside>
-<!-- End Sidebar -->
 <div class="content-box clearfix">{{ content }}</div>
