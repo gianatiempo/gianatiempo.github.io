@@ -880,6 +880,7 @@ table tfoot td {
 }
 
 .wrapper {
+  max-width: 1250px;
   position: relative;
 }
 
@@ -1159,7 +1160,6 @@ a.newer-posts:hover {
   padding: 0;
   margin: 0;
   max-height: 500px;
-  background-color: #fafafa;
   overflow: hidden;
 }
 .page-cover-image figure {
@@ -1320,7 +1320,7 @@ a.newer-posts:hover {
             justify-content: space-between;
     width: 100%;
     padding: 10px;
-    background-color: #ffffff;
+    background-color: #6633991c;
     -webkit-box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
             box-shadow: 0 1px 1px 0 rgba(31, 35, 46, 0.15);
   }
