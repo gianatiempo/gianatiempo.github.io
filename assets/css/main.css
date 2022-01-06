@@ -940,7 +940,7 @@ table tfoot td {
   margin: 0 auto 10px;
   border-radius: 100%;
   overflow: hidden;
-  background-color: #333030;
+  background-color: #ffffff;
 }
 .about img {
   width: 100%;
@@ -999,7 +999,7 @@ table tfoot td {
   content: "";
   display: block;
   height: 2px;
-  width: calc(50% - 48px);
+  width: 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;
@@ -1011,7 +1011,7 @@ table tfoot td {
   content: "";
   display: block;
   height: 2px;
-  width: calc(50% - 48px);
+  width: 10%;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
   position: absolute;

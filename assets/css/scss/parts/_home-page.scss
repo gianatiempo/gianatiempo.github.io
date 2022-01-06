@@ -20,7 +20,7 @@
     margin: 0 auto 10px;
     border-radius: 100%;
     overflow: hidden;
-    background-color: $dark;
+    background-color: $white;
   }
   img {
     width: 100%;
@@ -68,7 +68,7 @@
       content: "";
       display: block;
       height: 2px;
-      width: calc(50% - 48px);
+      width: 10%;
       transform: translateY(-50%);
       position: absolute;
       top: 50%;
@@ -79,7 +79,7 @@
       content: "";
       display: block;
       height: 2px;
-      width: calc(50% - 48px);
+      width: 10%;
       transform: translateY(-50%);
       position: absolute;
       top: 50%;
