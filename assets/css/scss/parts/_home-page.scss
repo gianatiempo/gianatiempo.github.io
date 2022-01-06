@@ -9,7 +9,7 @@
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: $white;
+  background-color: #6633991c;
 }
 .about {
   margin: 0 0 40px;
@@ -20,7 +20,7 @@
     margin: 0 auto 10px;
     border-radius: 100%;
     overflow: hidden;
-    background-color: $white;
+    background-color: #6633991c;
   }
   img {
     width: 100%;
@@ -85,6 +85,9 @@
       top: 50%;
       right: 0;
       background-color: $body-color;
+    }
+    a {
+      text-decoration: none;
     }
   }
   ul {

@@ -775,7 +775,7 @@ html {
 body {
   font-family: "Lato", sans-serif;
   color: #515151;
-  background-color: #fbfbfb;
+  background-color: #6633991c;
   margin: 0;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -885,7 +885,7 @@ table tfoot td {
 
 .post,
 .article-page {
-  background-color: #fff;
+  background-color: #ffffff9e;
 }
 
 ::-moz-selection {
@@ -927,7 +927,7 @@ table tfoot td {
   width: 240px;
   height: 100%;
   padding: 20px 10px;
-  background-color: #ffffff;
+  background-color: #6633991c;
 }
 
 .about {
@@ -940,7 +940,7 @@ table tfoot td {
   margin: 0 auto 10px;
   border-radius: 100%;
   overflow: hidden;
-  background-color: #ffffff;
+  background-color: #6633991c;
 }
 .about img {
   width: 100%;
@@ -1018,6 +1018,9 @@ table tfoot td {
   top: 50%;
   right: 0;
   background-color: #515151;
+}
+.contact .contact-title a {
+  text-decoration: none;
 }
 .contact ul {
   margin: 0;
