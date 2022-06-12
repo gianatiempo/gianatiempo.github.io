@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java, React and Web3, how did I get here...
-date: 2022-06-01 13:32:20 -0300
+date: 2022-06-01 00:00:00 -0300
 tags: [Web3]
 ---
 I started my career as a Java developer, after about 8 years the web development world was changing...
