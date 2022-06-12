@@ -1229,6 +1229,34 @@ a.newer-posts:hover {
   text-decoration: underline;
 }
 
+#markdown-toc {
+  padding: 0;
+  border-top: 1px solid #666060;
+  border-bottom: 1px solid #666060;
+}
+
+#markdown-toc ul {
+  counter-reset: cupcake;
+  -webkit-padding-start: 2ch;
+          padding-inline-start: 2ch;
+  list-style-type: none;
+}
+
+#markdown-toc li:before {
+  content: counters(cupcake, ".") " ";
+  color: #666060;
+}
+
+#markdown-toc li {
+  counter-increment: cupcake;
+  list-style-type: none;
+}
+
+#markdown-toc li > a {
+  text-decoration: none;
+  color: #666060;
+}
+
 /* - - - - - - - - - - Tag Styles - - - - - - - - - - */
 .blog-tags {
   width: 100%;
